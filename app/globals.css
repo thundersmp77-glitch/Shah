@@ -1,0 +1,15 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@theme {
+  --font-sans: 'SF Pro Text', -apple-system, BlinkMacSystemFont, 'Inter', sans-serif;
+  
+  --color-utility-bg: #8E9299; /* muted */
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: #f5f5f5;
+  color: #1a1a1a;
+}
+
